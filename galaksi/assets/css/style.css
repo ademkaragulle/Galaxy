@@ -1,0 +1,201 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/ursa-major-ursa-minor-constellations_23-2150028893.jpg?w=996&t=st=1695327948~exp=1695328548~hmac=eeb6d9e8a1ce0b0b6d85dd4073eee6f3f75aa14ff1b5f5c780a82fdb20220137");
+  background-size: cover;
+}
+
+.samanyolu {
+  transform: scale(0.3);
+}
+
+/* pluton */
+
+.planet {
+  border-radius: 50%;
+  border: 4px dashed #fff;
+  text-align: center;
+  position: absolute;
+}
+
+.img {
+  overflow: hidden;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  animation: don 20s linear infinite;
+  top: -40px;
+  border-radius: 50%;
+}
+
+.pluton {
+  width: 2000px;
+  height: 2000px;
+  top: 100px;
+  left: 100px;
+  animation: don 35s linear infinite;
+}
+
+.pluton img {
+  width: 40px;
+  height: 40px;
+  top: -20px;
+}
+
+/* neptün */
+
+.neptun {
+  width: 1800px;
+  height: 1800px;
+  top: 200px;
+  left: 200px;
+  animation: don 30s linear infinite;
+}
+
+.neptun img {
+  width: 60px;
+  height: 60px;
+  top: -30px;
+}
+
+/* uranüs */
+.uranus {
+  width: 1600px;
+  height: 1600px;
+  top: 300px;
+  left: 300px;
+  animation: donters 25s linear infinite;
+}
+
+/* satürn */
+.saturn {
+  width: 1400px;
+  height: 1400px;
+  top: 400px;
+  left: 400px;
+  animation: don 22s linear infinite;
+}
+
+.saturn img {
+  width: 200px;
+  height: 100px;
+  top: -50px;
+}
+
+.jupiter {
+  width: 1200px;
+  height: 1200px;
+  top: 500px;
+  left: 500px;
+  animation: don 20s linear infinite;
+}
+
+.jupiter img {
+  width: 120px;
+  height: 120px;
+  top: -60px;
+}
+
+.mars {
+  width: 1000px;
+  height: 1000px;
+  top: 600px;
+  left: 600px;
+  animation: don 18s linear infinite;
+}
+
+.mars img {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+}
+
+.dunya {
+  width: 800px;
+  height: 800px;
+  top: 700px;
+  left: 700px;
+  animation: don 15s linear infinite;
+}
+
+.earth-moon {
+  width: 200px;
+  height: 200px;
+  top: -100px;
+  position: relative;
+  display: inline-block;
+  animation: don 7s linear infinite;
+}
+
+.dunya .dunya-img {
+  top: 55px;
+}
+
+.moon-img {
+  top: 20px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.vunes {
+  width: 600px;
+  height: 600px;
+  top: 800px;
+  left: 800px;
+  animation: donters 12s linear infinite;
+}
+
+.vunes img {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+}
+
+.mercur {
+  width: 400px;
+  height: 400px;
+  top: 900px;
+  left: 900px;
+  animation: don 10s linear infinite;
+}
+
+.mercur img {
+  width: 50px;
+  height: 50px;
+  top: -25px;
+}
+
+.mercur {
+  width: 400px;
+  height: 400px;
+  top: 900px;
+  left: 900px;
+  animation: don 10s linear infinite;
+}
+
+.gunes {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 1100px;
+  left: 1100px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.gunes img {
+  width: 300px;
+  height: 300px;
+  top: 0px;
+  animation: don 7s linear infinite;
+}
+
+@keyframes don {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes donters {
+  100% {
+    transform: rotate(360deg);
+  }
+}
